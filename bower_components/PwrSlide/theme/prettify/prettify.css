@@ -1,0 +1,75 @@
+pre {
+  font-family: 'Source Code Pro', 'Courier New', monospace !important;
+  font-weight: bold !important;
+  font-size: 1em;
+  padding: 1.25em 0 .625em 4em !important;
+  letter-spacing: -1px;
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: rgba(200,200,200,0.5); 
+  left: -35px;
+  position: relative;
+  border-bottom-right-radius: 10px; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+pre[data-lang]:after {
+  font-weight: bold !important;
+  content: attr(data-lang);
+  background-color: darkgrey;
+  right: 0;
+  top: 0;
+  position: absolute;
+  font-size: 1.2em;
+  color: white;
+  padding: 2px 1.5em;
+  text-transform: uppercase;
+}
+
+pre[data-lang="go"] {
+  color: #333;
+}
+
+  /* Attribute value */
+.prettyprint .str,
+.prettyprint .atv {
+
+  color: #009f5d;
+}
+
+/* Tag name */
+.prettyprint .kwd,
+.prettyprint .tag {
+  color: #0066cc;
+}
+
+/* Comments */
+.prettyprint .com {
+  color: #797979;
+  font-style: italic;
+}
+
+/* Literal value */
+.prettyprint .lit {
+  color: #7f0000;
+}
+
+.prettyprint .pun,
+.prettyprint .opn,
+.prettyprint .clo {
+  color: #515151;
+}
+
+/* Variable name or declaration */
+.prettyprint .typ,
+.prettyprint .atn,
+.prettyprint .dec,
+.prettyprint .var {
+  color: #d94d3a;
+}
+
+.prettyprint .pln {
+  color: #515151;
+}

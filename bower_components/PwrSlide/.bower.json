@@ -1,0 +1,40 @@
+{
+  "name": "PwrSlide",
+  "version": "0.5.0",
+  "homepage": "https://github.com/wvandaal/PwrSlide",
+  "authors": [
+    "Willem C. van Daalen <wvandaalen@outlook.com>"
+  ],
+  "description": "Full-Featured Presentation Web Components",
+  "main": "config.js",
+  "keywords": [
+    "web-components",
+    "web components",
+    "polymer",
+    "pwrslide",
+    "presentation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "CNAME",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "polymer": "~0.2.0"
+  },
+  "_release": "0.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.0",
+    "commit": "1f68dc05ddb96b2d57bc482ddb9560ec9d128756"
+  },
+  "_source": "git://github.com/wvandaal/PwrSlide.git",
+  "_target": "~0.5.0",
+  "_originalSource": "PwrSlide",
+  "_direct": true
+}
